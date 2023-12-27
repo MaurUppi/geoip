@@ -1,6 +1,7 @@
 # 感谢 
 
 本项目持续修改中，主要目的是使用原项目对于mmdb的融合能力，但我不打算用MaxMind的Country数据库，虽然是daily更新频率。
+
 我打算用db-ip的 [ip-to-country-lite](https://db-ip.com/db/download/ip-to-country-lite)。缺点是Monthly更新频率，优点是数据准确度比MaxMind要高不少。
 
 使用了 Loyalsoldier 的 [Geoip 项目](https://github.com/Loyalsoldier/geoip) 以及其它贡献者
