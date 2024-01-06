@@ -98,8 +98,8 @@ GeoIP数据库提供商，如MaxMind、DB-IP等，通常提供多种格式的数
 6. **其它公开服务** 仅提供部分的公开信息
    - [OpenGeoFeed](https://opengeofeed.org/) 
    - [RouteViews](https://www.routeviews.org/routeviews/): AS number from ipv4 address [Update: every 2 hours]
-   - [IPtoASN](https://iptoasn.com/ : [Update: Hourly]
-   - [资源整合](https://github.com/sapics/ip-location-db)
+   - [IPtoASN](https://iptoasn.com/)  [Update: Hourly]
+   - [ip-location-db](https://github.com/sapics/ip-location-db) [资源整合]
    - [IPFire Firewall](https://www.ipfire.org/) maintains a [geoip database in a custom format](https://git.ipfire.org/?p=location/location-database.git;a=summary), which notably includes IP categorization, such as is-anycast.
 
 
@@ -163,7 +163,7 @@ GeoIP数据库提供商，如MaxMind、DB-IP等，通常提供多种格式的数
    - 支持MaxMind、DB-IP的mmdb格式，Lite及Commercial版本
    - [func getDBType](https://github.com/oschwald/geoip2-golang/blob/fbe22892b33824e127ef49e61e84812d8d5497a6/reader.go#L277-L313)
 
-4. **[Build your own GeoIP .mmdb!](https://github.com/safing/mmdbmeld)
+4. **[Build your own GeoIP .mmdb!](https://github.com/safing/mmdbmeld)**
    - 输入格式：CSV
    - 输出格式：MMDB
    - [config-example.yml](https://github.com/safing/mmdbmeld/blob/master/config-example.yml)
@@ -208,7 +208,7 @@ GeoIP数据库提供商，如MaxMind、DB-IP等，通常提供多种格式的数
 
 7. **[PaPerseller/chn-iplist](https://github.com/PaPerseller/chn-iplist)**
    - 利用 **Chnroutes rules** 生成符合 routers、Shadowrocket、Quantumult、acl、v2rayNG、v2rayN、pac、Qv2ray、SagerNet、v2rayA、RouterOS、sing-box、v2ray config file.的可用信息
-   - 数据源也是 IPIP.net [社区版 china_ip_list](https://github.com/17mon/china_ip_list)、[中国运营商IP地址库](https://github.com/gaoyifan/china-operator-ip/)
+   - 数据源也是 [IPIP.net 社区版 china_ip_list](https://github.com/17mon/china_ip_list)、[中国运营商IP地址库](https://github.com/gaoyifan/china-operator-ip/)
 
 
 # 推荐用哪个？
@@ -252,5 +252,12 @@ GeoIP数据库提供商，如MaxMind、DB-IP等，通常提供多种格式的数
        ![103 167 135 39](https://github.com/MaurUppi/geoip/assets/47710598/66b9009d-311b-4e98-97f9-32e2f026a330)
 
        
+# TODO 
 
-
+- City Level的整合版
+   - **dp-ip city-lite** 作为海外数据源
+   - **国内数据整合**
+     - [xiangyuecn/AreaCity-JsSpider-StatsGov](https://github.com/xiangyuecn/AreaCity-JsSpider-StatsGov)
+       - 提供城市中心经纬度
+     - [IP 地址库 - 市级 IP 段](https://github.com/metowolf/iplist?tab=readme-ov-file#%E5%B8%82%E7%BA%A7-ip-%E6%AE%B5)
+       - 提供城市级别 IP 段
