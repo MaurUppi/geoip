@@ -1,3 +1,4 @@
+# 建议阅读: [GeoIP梳理](https://github.com/MaurUppi/geoip/blob/master/GeoIP%E6%A2%B3%E7%90%86.md)
 # 感谢 
 
 本项目持续修改中，主要目的是使用原项目对于mmdb的融合能力，但我不打算用MaxMind的Country数据库，虽然是daily更新频率。
