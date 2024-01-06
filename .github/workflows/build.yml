@@ -3,15 +3,15 @@ on:
   workflow_dispatch:
   #schedule:
   #  - cron: "0 0 * * 4"
-  push:
-    branches:
-      - master
-    paths-ignore:
-      - ".gitignore"
-      - "config-example.json"
-      - "LICENSE"
-      - "README.md"
-      - ".github/dependabot.yml"
+  #push:
+  #  branches:
+  #    - master
+  #  paths-ignore:
+  #    - ".gitignore"
+  #    - "config-example.json"
+  #    - "LICENSE"
+  #    - "README.md"
+  #    - ".github/dependabot.yml"
 jobs:
   build:
     name: Build
